@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&display=swap" rel="stylesheet">
+    <title>L'emploi de l'artiste et ses difficultées</title>
+</head>
+<body>
+    <header> <!--Header-->
+        <h2>Artistique</h2>
+        <nav>
+            <ul>
+                <li><a href="#acceuil">Acceuil</a></li>
+                <li><a href="#inscription">Inscription</a></li>
+                <li><a href="#tableau">Donnée numérique</a></li>
+                <li><a href="#articles">Vivre de l'art</a></li>
+                <li><a href="#articles2">Loisir ou emploi?</a></li>
+                <li><a href="#articles3">Pas un emploi?</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="acceuil" class="acceuilHeader"> <!--Acceuil-->
+        <div id="introHeader">
+            <h4>TP2</h4>
+            <h2>Artistique</h2>
+            <h3>Maxim Chauvette</h3>
+            <h5>582-1W1 - Mise en page Web</h5>
+            <h5>Techniques d'intégration multimédia</h5>
+            <h5>Collège de Maisonneuve</h5>
+            <h5>Addresse de Github-page : </h5> <!--Faire page github à la fin-->
+            <h5>Automne 2023</h5>
+        </div>
+        <div id="imageHeader">
+            <img src="images/wave.jpg" width="659" height="394" alt="wave">
+        </div>
+    </section>
+    <section id="inscription" class="contenu"> <!--Inscription form-->
+        <p>.</p>
+        <h3>Inscription</h3>
+        <form name="form" method="get" class="monForm">
+            <fieldset>
+                <legend>Inscription</legend>
+            </fieldset>
+            <div class="rangeeForm">
+                <div class="colone">
+                    <div class="groupeSaisi">
+                        <label for="nom">Nom : </label>
+                        <input type="text" name="nom" id="nom">
+                    </div>
+                    <div class="groupeSaisi">
+                        <label for="email">Email : </label>
+                        <input type="text" name="mail" id="email">
+                    </div>
+                    <div class="groupeSaisi">
+                        <label for="passWord">Mot de passe : </label>
+                        <input type="password" name="motPasse" maxlength="12" id="passWord">
+                    </div>
+                </div>
+                <div class="colone"></div>
+                    <fieldset class="genre">
+                        <legend>Sexe :</legend>
+                        <label>Homme : <input type="checkbox" name="hommeCheck"></label>
+                        <label>Femme : <input type="checkbox" name="femmeCheck"></label>
+                        <label>Autres : <input type="checkbox" name="autreCheck"></label>
+                    </fieldset>
+            </div>
+            <div class="rangeeForm" id="boutton">
+                <input type="submit" value="Envoyer" name="envoie">
+                <input type="reset" value="Effacer" name="efface">
+            </div>
+        </form>
+    </section>
+    <section id="tableau" class="contenu"> <!--Tableau de données-->
+        <p>.</p>
+        <h3>Statistique du revenu des artistes en 2016</h3>
+        <table>
+            <caption>Revenu médian d'artistes en comparaison à ceux de la population active</caption>
+            <thead>
+                <tr>
+                    <th>Revenu médian</th>
+                    <th>Artistes général</th>
+                    <th>Danseurs</th>
+                    <th>Comédiens</th>
+                    <th>Travailleurs culturels</th>
+                    <th>Population active</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>moins que 20 000$</td>
+                    <td>X</td>
+                    <td>15 800$</td>
+                    <td>18 500$</td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td>plus que 20 000$, moins que 30 000$</td>
+                    <td>24 300$</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td>plus que 30 000$, moins que 40 000$</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td>Plus que 40 000$</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>41 000$</td>
+                    <td>43 500$</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="6">Source des données dans le pied de page.</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    <section id="articles" class="contenu"> <!--Article 1-->
+        <p>.</p>
+        <h3>Vivre de son art, une possibilitée de plus en plus impossible.</h3>
+        <div class="texte">
+            <h4>Il devient de plus en plus difficile aujourd'hui de gagner sa vie par un travail d'artiste. Nos sociétés archi fonctionnelles arrivent difficilement à intégrer une matière aussi insaisissable et imprévisible que l'art à ses structures économiques. L'archivage illimité et l'accès gratuit à d'innombrables oeuvres sur Internet permettent au public de cueillir des chefs-d'oeuvre en série, sans penser aux intérêts de ceux et celles qui les ont conçus. Dans cette abondance, il y aura toujours des artistes prêts à travailler pour moins, dans le but de se faire connaître. <br>
+            <br>
+            Qu'ils crèvent les artistes, titre d'une pièce de Tadeusz Kantor créée en 1985, devient un mot d'ordre qui résume bien une attitude répandue face aux artistes. Plus que jamais, on se nourrit de leur production diversifiée. Mais de là à payer pour ce qu'ils nous offrent, il y a une marge. Ce qui nous mène à une situation complexe et nous place devant de difficiles dilemmes. <br>
+            <br>
+            L'État, grand mécène des arts pendant la seconde moitié de 20e siècle, se retire peu à peu de rôle dans lequel il avait pourtant excellé. Les coupes ne sont pas brutales, mais discrètes, progressives, inéluctables. La stratégie des gouvernements fédéral et provincial se ressemble. Les grands événements comme les festivals restent relativement bien subventionnés. On lésine peu sur la construction et la rénovation des théâtres, musées, etc. Mais les artistes y trouvent difficilement leur compte.
+            </h4>
+            <h4>
+            Le Conseil des arts et des lettres du Québec et le Conseil national des arts du Canada sont les organismes qui donnent le plus généreusement aux artistes. Mais leurs budgets stagnent. Ce qui équivaut en réalité à une baisse, étant donné l'inflation, et puisque les besoins sont toujours plus grands et les demandes plus nombreuses. Selon le Mouvement pour les arts et les lettres (MAL), «  les demandes de bourses ont explosé, en hausse de 52 %, alors que le nombre de bourses accordées s'est à peine accru (10 %). La valeur de la bourse moyenne a augmenté de 3,7 % sur dix ans. Celle de la subvention moyenne aux organismes a reculé de 12 % depuis neuf ans » (Le Devoir, 26 janvier 2012). <br>
+            <br>
+            Tout ceci s'inscrit dans une logique de désengagement de l'État dans le plus grand nombre de secteurs possibles et s'accentue à l'ère des plans d'austérité. Des chroniqueurs et journalistes de droite comme Nathalie Elgrably-Lévy et Krista Erikson (toutes deux à l'emploi du très « culturel » Pierre-Karl Péladeau) se complaisent à dénoncer grossièrement le pseudo parasitisme des artistes. Pourtant, il est évident que soumettre l'art aux lois du marché, comme plusieurs esprits pratiques le souhaitent, en vient inévitablement à tuer la créativité. <br>
+            <br>
+            Article écrit par Claude Vaillancourt. Source de l'article au pied de page.
+            </h4>
+        </div>
+    </section>
+    <section id="articles2" class="contenu"> <!--Article 2-->
+        <p>.</p>
+        <h3>Être artiste, un loisir ou un métier?</h3>
+        <div class="texte">
+            <h4>
+                Souvent confondu avec une passion, en termes de nomenclature, «artiste» est bel est bien une catégorie socioprofessionnelle répertoriée par l'Insee sous l'étiquette des métiers artistiques. Sont comptabilisées les personnes dont l'activité artistique (artistes de spectacles, auteurs, métiers des arts visuels, des arts graphiques, de la mode et de la décoration, etc.) est la principale source de revenus. Quant aux personnes qui ne vivent pas de leur art à titre principal, elles sont perçues comme des «amateurs». Historien de l'art et poète, Paul Guillon remarque qu'en général «les gens pensent que c'est une passion, un hobby plutôt qu'un métier. L'exemple c'est la poésie, elle est souvent confondue avec le fait de tenir un journal intime.» <br>
+                <br>
+                «Je ne sais pas si c'est véritablement un métier (…) Disons que c'est plutôt une occupation rentable.» Cyril Debon, artiste
+            </h4>
+            <h4>
+                Mais pourquoi cette activité n'est-elle pas considérée dans la société comme une profession ? Pour le sociologue, auteur et metteur en scène Pierre-Alain Four, c'est assez logique : «Je pense que les artistes ont à la fois envie de dire que c'est un métier et en même temps, le fait d'être considéré comme des gens à part leur convient bien. Car c'est aussi ça qui leur permet d'acquérir un statut un petit peu unique. Il y a une ambiguïté qui n'est que très peu déconstruite.» Une ambivalence qui semble en effet convenir à Cyril Debon, artiste peintre et sculpteur : «Je ne sais pas si c'est véritablement un métier, avance-t-il. Mais ça y ressemble, puisque c'est mon activité principale, c'est comme ça que je gagne de l'argent. Disons que c'est plutôt une occupation rentable.» Enfin, se pose l'épineuse question de ce que l'on peut considérer ou non comme de l'art. «Beaucoup de métiers, notamment dans l'informatique, sont des métiers créatifs mais ils ne sont pas pour autant considérés comme tels», argue Pierre-Alain Four. <br>
+                <br>
+                Article écrit par Manuel Avenel. Source de l'article dans le pied de page.
+            </h4>
+        </div>
+    </section>
+    <section id="articles3" class="contenu"> <!--Article 3-->
+        <p>.</p>
+        <h3>Emploi de l'artiste, pas sa place sur le marché du travail?</h3>
+        <div class="texte">
+            <h4>
+                Sur le marché de l'emploi en Belgique, il existe 3 statuts : « Salariés », « fonctionnaires » et « indépendants ». L'artiste n'est pas un statut professionnel à proprement parlé mais est intégré dans les statuts existants. Un sous-produit en somme. <br>
+                <br>
+                De mon point de vue, on ne va pas se mentir, il est très dur d'être pris au sérieux en tant qu'artiste sur le marché de l'emploi en Belgique. Par exemple, l'enfant qui annonce à ses parents qu'il veut devenir artiste. Comme la plupart des parents de notre société actuelle, ceux-ci ne verront pas spécialement cela d'un bon œil. Cela a été mon cas, ainsi que celui de beaucoup d'artistes. <br>
+                <br>
+                En effet pour la plupart, être un artiste est plus un passe-temps qu'une perspective d'avenir et de fait, n'encourageront pas vraiment leur enfant à suivre cette voie. Comme par exemple suivre une formation solide et se diriger vers un métier qui s'y rapporte. Même si celui-ci a beaucoup de talent.
+            </h4>
+            <h4>
+                [...]Selon la situation géographique et la zone d'influence, le marché artistique peut-être soit limité, soit très florissant. Par exemple le marché de la bande-dessinée : très porteur sur le secteur de Bruxelles (comme par exemple la maison d'édition Casterman) mais inexistante sur le secteur de Liège. Mais tout dépend du domaine artistique que l'on vise, car un art n'est pas l'autre. Beaucoup de variantes entrent en jeu. Une zone peut être propice pour le théâtre et une autre pas du tout. La difficulté est de savoir où chercher. <br>
+                <br>
+                Article écrit par ?. Source de l'article dans le pied de page.
+            </h4>
+        </div>
+    </section>
+    <section id="galerie" class="contenu"> <!--Galerie-->
+        <p>.</p>
+        <h3>Galerie</h3>
+        <div>
+            <img src="images/download.jpg" width="200" height="252" alt="">
+            <img src="images/eef_.png" width="200" height="280" alt="">
+            <img src="images/scream.jpg" width="200" height="250" alt="">
+        </div>
+        <div>
+            <img src="images/Heizou_.png" width="248" height="300" alt="">
+            <img src="images/unnamed.jpg" width="300" height="250" alt="">
+            <img src="images/kaveh.png" width="200" height="200" alt="">
+        </div>
+    </section>
+    <footer> <!--Footer-->
+        <div id="rangee1">
+            <p>Maisonneuve College, 3800 R. Sherbrooke E, Montréal</p>
+            <p>Sources</p>
+            <ul>
+                <li>Statistique : https://hillstrategies.com/resource/profil-statistique-des-artistes-au-canada-en-2016/?lang=fr</li>
+                <li>Article 1 : https://www.ababord.org/Peut-on-encore-vivre-de-son-art</li>
+                <li>Article 2 : https://www.welcometothejungle.com/fr/articles/statut-artiste-societe-loisir-travail</li>
+                <li>Article 3 : https://buzz4job.be/2019/01/09/le-statut-dartiste-pas-sa-place-sur-le-marche-de-lemploi/</li>
+                <li>Image acceuil par Katsushika Hokusai</li>
+                <li>Image 1 et 5 par Vincent Van Gogh</li>
+                <li>Image 3 par Edvard Munch</li>
+                <li>Images 2, 4 et 6 par moi</li>
+            </ul>
+        </div>
+        <div id="rangee2">
+            <p><a href="">Plus sur ce département</a></p> <!--faux lien-->
+            <p>Réseaux sociaux</p>
+            <ul>
+                <li><img src="images/facebook_32.png" alt="facebook"></li><li><img src="images/instagram_32.png" alt="instagram"></li>
+            </ul>
+            <p><a href="">Avis de confidentialité | Privacy Notice</a></p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,331 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/*------------------- 
+        Body        
+-------------------*/
+body {
+    background-color: #ffdca8;
+    color: #545454;
+    font-family: 'Aref Ruqaa', serif;
+}
+
+/*------------------- 
+        Header        
+-------------------*/
+header {
+    background-color: #cf7d56;
+    width: 100vw;
+    height: 12vh;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+header h2 {
+    margin-left: 10px;
+    font-size: 4em;
+}
+
+/*------------------- 
+        Menu        
+-------------------*/
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav ul li { 
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    border: 8px solid #9ccbba;
+    border-radius: 25px;
+    background-color: #9ccbba;
+}
+
+header nav li a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #545454;
+    text-align: center;
+}
+
+nav ul :hover {
+    border-color: #569e85;
+    background-color: #569e85;
+}
+
+nav ul :active {
+    color: #968e85;
+    border-color: #c2e0d5;
+    background-color: #c2e0d5;
+}
+
+/*------------------- 
+       Acceuil        
+-------------------*/
+.acceuilHeader {
+    height: 86vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#introHeader {
+    width: 36vw;
+    padding-top: 12vh;
+    background-color: #ffc4a8;
+    padding-left: 2vw;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#introHeader h4 {
+    font-size: 1.2em;
+}
+
+#introHeader h2 {
+    font-size: 3.6em;
+}
+
+#introHeader h3 {
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
+#introHeader h5 {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+#imageHeader {
+    width: 48vw;
+    padding-left: 10vw;
+    padding-top: 13vh;
+}
+
+/*------------------- 
+       Contenu        
+-------------------*/
+.contenu {
+    background-color: #ffdca8;
+    width: 100vw;
+    height: 100vh;
+}
+
+/*------------------- 
+     Inscription        
+-------------------*/
+#inscription p {
+    color: #ffdca8;
+}
+
+#inscription h3 {
+    margin-top: 12vh;
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+#inscription .monForm {
+    margin-top: 30px;
+    width: 40vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffc4a8;
+    border: 2px solid #2d2d2d;
+    border-radius: 3px;
+    padding: 1em;
+}
+
+#inscription .rangeeForm {
+    display: flex;
+    justify-content: center;
+}
+
+#inscription .colone {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+#inscription .groupeSaisi {
+    display: flex;
+}
+
+#inscription .groupeSaisi > label {
+    margin-right: 1em;
+    padding: .5em 0;
+}
+
+#inscription fieldset {
+    border: 0;
+}
+
+#inscription .genre {
+    display: grid;
+}
+
+#inscription #boutton {
+    margin-top: 15px;
+}
+
+/*------------------- 
+       Tableau        
+-------------------*/
+#tableau p {
+    color: #ffdca8;
+}
+
+#tableau h3 {
+    margin-top: 12vh;
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+#tableau table {
+    border: 4px solid #ffc4a8;
+    width: 70vw;
+    height: 40vh;
+    margin-top: 5vh;
+    font-size: 1.5em;
+    border-collapse: collapse;
+}
+
+#tableau caption {
+    border: 4px solid #ffc4a8;
+    border-bottom: none;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+#tableau td, #tableau th {
+    border: 3px solid #ffc4a8;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+tfoot td {
+    font-size: 0.7em;
+    font-style: italic;
+    border: 3px solid #ffc4a8;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*------------------- 
+      Articles        
+-------------------*/
+#articles p {
+    color: #ffdca8;
+}
+
+#articles h3 {
+    margin-top: 12vh;
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+.texte {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: justify;
+    margin-left: 15px;
+    font-size: 1.1em;
+    margin-top: 30px;
+}
+
+.texte :last-child {
+    margin-left: 30px;
+}
+
+#articles2 p {
+    color: #ffdca8;
+}
+
+#articles2 h3 {
+    margin-top: 12vh;
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+#articles3 p {
+    color: #ffdca8;
+}
+
+#articles3 h3 {
+    margin-top: 12vh;
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+/*------------------- 
+       Galerie        
+-------------------*/
+#galerie p {
+    color: #ffdca8;
+}
+
+#galerie h3 {
+    margin-top: 12vh;
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+#galerie div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*------------------- 
+       Footer        
+-------------------*/
+footer {
+    width: 100vw;
+    margin-top: 6vh;
+    height: 34vh;
+    background-color: #cf7d56;
+    display: flex;
+    flex-direction: row;
+    color: #2d2d2d;
+}
+
+footer #rangee1 {
+    margin-left: 10px;
+    width: 40vw;
+}
+
+footer #rangee2 {
+    margin-left: 0px;
+    width: 40vw;
+}
+
+#rangee2 p a {
+    text-decoration: none;
+    color: #2d2d2d;
+}
+
+#rangee a :hover {
+    color: #545454;
+}
+
+#rangee2 ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#rangee2 li {
+    margin: 5px 5px 5px 5px;
+}
